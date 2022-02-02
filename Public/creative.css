@@ -174,7 +174,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('odeuropa-logo.jpg');
+  background-image: url('../odeuropa-logo.jpg');
   text-align: center;
   color: black;
 }
