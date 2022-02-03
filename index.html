@@ -116,15 +116,12 @@
                             The ICPR-ODeuropa Olfactory Recognition (ODOR) challenge has been created in the context of the EU-funded 
                             <a href="www.odeuropa.eu">Odeuropa Project</a>, 
                             which aims to remedy this shortcoming by promoting, preserving, and recreating the olfactory heritage of Europe. 
-                            Participants are challenged to create systems to detect a diverse range of smell-related objects in historical artworks.
-                            
-                            The detection targets are objects that either emit strong smells themselves, like different kinds of flowers, or else implicitly hint at the presence of a smell, e.g. flies. 
-                            In contrast to standard benchmarking datasets like COCO or ImageNet, the ODOR challenge dataset emerges from a real-world application. 
-
+                    </p>
+                    <p class="text">
                             Through this challenge, we want to promote the development of object detection algorithms that work under realistic conditions, such as varying image quality and modalities, long-tailed category distributions, or fine-grained detection classes. 
                             Being able to detect olfactory objects might in turn lead to the ability to recognize more complex, implicit smell references, thus promoting a multisensory perspective in computer vision and digital humanities.
                             
-                        </p>
+                    </p>
                     <!--<a href="#{{text31}}" class="page-scroll btn btn-default btn-xl sr-button">{{text27}}</a>-->
                 </div>
             </div>
@@ -132,12 +129,50 @@
     </section>
 
     <section class="bg-dark" id="{{details}}">
-        <div class="container text-center">
+        <div class="container">
             <div class="row">
                 <h1 class="section-heading text-center">Challenge Details</h1>
                 <hr>
-                <p class="text"> The challenge is held via Codalab. Participants can find more details and register for the challenge via <a href="https://codalab.lisn.upsaclay.fr/competitions/1605?secret_key=5fed26e7-020a-4f45-9893-4fe9be7fc98a">CodaLab.</a></div></div>
-    </section>
+                <div class="col-lg-8 col-lg-offset-2 text-justify">
+
+                
+                <p class="text">Participants are challenged to create systems to detect a diverse range of smell-related objects in historical artworks.
+                            
+                    The detection targets are objects that either emit strong smells themselves, like different kinds of flowers, or else implicitly hint at the presence of a smell, e.g. flies. 
+                    In contrast to standard benchmarking datasets like COCO or ImageNet, 
+                    the ODOR challenge dataset emerges from a real-world application, 
+                    which leads to multiple challenging properties that participants have to overcome:
+                </p>
+                <p class="text">
+                <ul>
+                    <li>
+                        Object detection in the artistic domain requires detection algorithms to cope with varying degrees of abstraction and artistic styles, which leads to an intra-class variance considerably higher than that of photographic depictions.
+                    </li>
+                    <li>
+                        Unlike standard object detection datasets, where images usually contain repetitive objects with a large number of instances per sample, historical artworks often contain many object instances of diverse sizes. 
+                        In addition, these instances are more often occluded by other objects.
+                    </li>
+                    <li>
+                        Smell-relevant objects can be very particular and specific, leading to a fine-grained classification of target objects. 
+                        Different types of flowers for example might have a different smell even though they look very similar.
+                    </li>
+                    <li>
+                        Since the dataset covers a time span of multiple centuries, the appearance of some target objects is subject to historical change.
+                        Special man-made objects like cigars or beverages might have changed their look over the years, whereas others like flowers or animals remained invariant.
+                    </li>
+                </ul>
+                </p>
+
+                <p class="text"> 
+
+                    The challenge is held via Codalab. 
+                    Participants can find more details and register for the challenge via 
+                    <a href="https://codalab.lisn.upsaclay.fr/competitions/1605?secret_key=5fed26e7-020a-4f45-9893-4fe9be7fc98a">CodaLab.</a>
+                </p>
+
+                </div>
+                </div></div>
+                </section>
         
     <section  class="bg-dark" id="{{timeline}}">
 <div class="container text-center">
